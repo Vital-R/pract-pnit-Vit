@@ -10,9 +10,9 @@
             margin-top: 110px;
             padding: 54px;
             background: $foreground-color;
-            transition: 0.4s;
+            transition: 0.2s;
             .col-md__block{ 
-                transform: scaleY(1);
+                transform: scaleY(0.99);
                 transition: 0.4s;
             }
             &:hover{
@@ -22,7 +22,7 @@
                 
                 .col-md__block{ 
                     transform: scaleY(0.85);
-                    transition: 0.4s;
+                    transition: 0.6s;
                 }
 
                 h5, p{
